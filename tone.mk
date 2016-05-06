@@ -163,6 +163,7 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.usb.rc \
     init.msm.usb.configfs.rc \
+    init.recovery.qcom.rc \
     ueventd.qcom.rc
 
 # Component overrides
