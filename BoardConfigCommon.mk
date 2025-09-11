@@ -15,8 +15,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := sony
-
 VENDOR_PATH := device/sony/tone-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(VENDOR_PATH)/include
