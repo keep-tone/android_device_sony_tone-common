@@ -16,6 +16,7 @@
 #
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/sony/tone-common/tone-common-vendor.mk)
