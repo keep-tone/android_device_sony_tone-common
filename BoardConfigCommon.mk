@@ -107,9 +107,6 @@ TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 TARGET_USES_OVERLAY := true
 
-# Encryption
-TARGET_HW_DISK_ENCRYPTION := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
 
