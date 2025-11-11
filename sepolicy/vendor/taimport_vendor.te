@@ -35,3 +35,6 @@ allow taimport_vendor bluetooth_vendor_data_file:file { create_file_perms };
 # /persist/wlan
 allow taimport_vendor persist_wlan_file:dir { rw_dir_perms };
 allow taimport_vendor persist_wlan_file:file { create_file_perms };
+
+allow taimport_vendor property_socket:sock_file write;
+allow taimport_vendor init:unix_stream_socket connectto;
