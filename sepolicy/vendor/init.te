@@ -14,3 +14,6 @@ allow init {
 allow init tad_socket:sock_file create_file_perms;
 
 allow init sysfs:file setattr;
+
+# MMC
+allow init sysfs_mmc_host:file rw_file_perms;

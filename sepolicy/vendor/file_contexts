@@ -66,3 +66,6 @@
 # vendor services
 /(vendor|system/vendor)/bin/taimport_vendor                     u:object_r:taimport_vendor_exec:s0
 /(vendor|system/vendor)/bin/thermanager                         u:object_r:thermanager_exec:s0
+
+# MMC
+/sys/devices/soc/7464900.sdhci/mmc_host/mmc0/mmc0:0001/block/mmcblk0/queue/discard_max_bytes            u:object_r:sysfs_mmc_host:s0
