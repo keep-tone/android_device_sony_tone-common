@@ -13,4 +13,4 @@ allow init {
 # Allow init to create tad socket
 allow init tad_socket:sock_file create_file_perms;
 
-
+allow init sysfs:file setattr;
