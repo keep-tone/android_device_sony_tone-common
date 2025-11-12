@@ -13,3 +13,4 @@ ro.vendor.semc.version.cust.active  u:object_r:sony_cust_version_prop:s0
 persist.hvdcp.                      u:object_r:vendor_hvdcp_opti_prop:s0
 vendor.adsprpcd.                    u:object_r:vendor_adsprpcd_prop:s0
 vendor.camera.                      u:object_r:vendor_camera_prop:s0
+vendor.wcnss.                       u:object_r:vendor_wcnss_prop:s0
