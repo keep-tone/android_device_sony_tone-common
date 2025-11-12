@@ -17,3 +17,6 @@ allow init sysfs:file setattr;
 
 # MMC
 allow init sysfs_mmc_host:file rw_file_perms;
+
+set_prop(init, vendor_qcom_ims_prop)
+set_prop(init, exported_default_prop)
