@@ -38,3 +38,5 @@ allow taimport_vendor persist_wlan_file:file { create_file_perms };
 
 allow taimport_vendor property_socket:sock_file write;
 allow taimport_vendor init:unix_stream_socket connectto;
+
+set_prop(taimport_vendor, sony_cust_version_prop)
