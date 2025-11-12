@@ -10,3 +10,4 @@ sys.listeners.registered            u:object_r:vendor_tee_listener_prop:s0
 oem.device.imeicache                u:object_r:vendor_qcom_ims_prop:s0
 sys.fake_bs_flag0                   u:object_r:vendor_radio_prop:s0
 ro.vendor.semc.version.cust.active  u:object_r:sony_cust_version_prop:s0
+persist.hvdcp.                      u:object_r:vendor_hvdcp_opti_prop:s0
