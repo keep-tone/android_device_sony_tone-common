@@ -1,0 +1,1 @@
+allow radio hal_iwlan_hwservice:hwservice_manager find;
