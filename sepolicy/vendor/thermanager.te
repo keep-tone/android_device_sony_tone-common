@@ -23,4 +23,4 @@ allow thermanager sysfs:file rw_file_perms;
 allow thermanager sysfs_msm_perf:file rw_file_perms;
 allow thermanager sysfs_msm_perf:dir r_dir_perms;
 
-neverallow thermanager self:capability dac_override;
+dontaudit thermanager self:capability dac_override;
