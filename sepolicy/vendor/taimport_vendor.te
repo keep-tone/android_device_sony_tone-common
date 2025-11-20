@@ -40,3 +40,5 @@ allow taimport_vendor property_socket:sock_file write;
 allow taimport_vendor init:unix_stream_socket connectto;
 
 set_prop(taimport_vendor, sony_cust_version_prop)
+
+allow taimport_vendor persist_file:dir search;

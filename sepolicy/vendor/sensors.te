@@ -8,3 +8,5 @@ allow sensors sysfs_msm_subsys:dir { search read };
 
 allow sensors diag_device:chr_file { read write };
 allow sensors diag_device:chr_file open;
+
+allow sensors persist_file:dir search;
