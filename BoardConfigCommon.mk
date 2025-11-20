@@ -145,6 +145,7 @@ TARGET_USES_INTERACTION_BOOST := true
 # Device Properties
 TARGET_ODM_PROP := $(VENDOR_PATH)/odm.prop
 TARGET_SYSTEM_PROP := $(VENDOR_PATH)/system.prop
+TARGET_SYSTEM_EXT_PROP := $(VENDOR_PATH)/system_ext.prop
 TARGET_VENDOR_PROP := $(VENDOR_PATH)/vendor.prop
 TARGET_PRODUCT_PROP += $(VENDOR_PATH)/product.prop
 

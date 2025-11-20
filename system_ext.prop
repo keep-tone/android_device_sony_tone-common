@@ -1,0 +1,25 @@
+# Adreno
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
+# Bluetooth
+bluetooth.hfp.client=1
+persist.bluetooth.avrcpversion=avrcp16
+
+# Charger
+ro.charger.enable_suspend=true
+
+# Fingerprint
+persist.qfp=false
+
+# Graphics
+persist.demo.hdmirotationlock=false
+
+# NFC
+ro.nfc.port=I2C
+persist.nfc.smartcard.config=SIM1,SIM2,eSE1
+
+# TimeService
+persist.timed.enable=true
+
+# USB
+ro.usb.pid_suffix=1E7
