@@ -14,3 +14,5 @@ allow init {
 allow init tad_socket:sock_file create_file_perms;
 
 allow init firmware_file:filesystem getattr;
+
+allow init sysfs:file setattr;
